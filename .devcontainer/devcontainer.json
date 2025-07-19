@@ -14,6 +14,6 @@
             "terminal.integrated.shell.linux": "/bin/bash"
         }
     },
-    "postCreateCommand": "pip install poetry",
+    "postCreateCommand": "pip install uv",
     "remoteUser": "vscode"
 }
