@@ -34,10 +34,14 @@ include = [
     "spot_optimizer/resources/*.json"
 ]
 
+[tool.pytest.ini_options]
+pythonpath = "."
 [dependency-groups]
 dev = [
     "bs4>=0.0.2",
+    "build>=1.2.2.post1",
     "pytest>=8.4.1",
     "pytest-cov>=6.2.1",
+    "twine>=6.1.0",
     "types-requests>=2.32.4.20250611",
 ]
